@@ -7,6 +7,7 @@
 #include <cmath>
 #include <string>
 #include <numeric>
+#include <iomanip>
 #include <algorithm>
 #include <functional>
 #define sqr(i) ((i) * (i))
@@ -26,7 +27,7 @@ int main() {
 #ifndef ONLINE_JUDGE
 	freopen("input.txt", "r", stdin); freopen("output.txt", "w", stdout);
 #endif
-	ios_base::sync_with_stdio(0); cin.tie(0);
+	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
 	solve();
 	
